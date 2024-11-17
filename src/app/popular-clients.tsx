@@ -14,7 +14,12 @@ const CLIENTS = [
 
 export function PopularClients() {
   return (
-    <section className="py-8 px-8 lg:py-20">
+    <>
+    
+    </>
+  );
+}
+{/* <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
@@ -37,8 +42,5 @@ export function PopularClients() {
           ))}
         </div>
       </div>
-    </section>
-  );
-}
-
+    </section> */}
 export default PopularClients;
